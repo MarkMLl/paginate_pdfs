@@ -1,7 +1,7 @@
 # paginate_pdfs
 Nerd-oriented scripts to paginate a bundle of PDFs of varying provenence and type.
 
-The top-level script is bundle.sh, from that
+The top-level script is bundle.sh, from that:
 
  A document prepared by e.g. LibreOffice or Lyx can be saved in .pdf form
  generating thumbnails and the contents metadata (referred to as "bookmarks"
@@ -16,4 +16,7 @@ The top-level script is bundle.sh, from that
  BundleDocs, prompted in part by seeing a legal opponent make the beginner's
  mistake of not checking the pagination after adjusting his TOC. MarkMLl
 
-Prerequisites are pdftk, LaTeX as installed on most Linux distreaux etc.
+Prerequisites are pdftk, LaTeX as installed on most Linux distreaux etc. The
+output intentionally has every page (including TOCs at the start of a sub-bundle
+etc.) paginated, so that the PDF page (typically shown at the top of the reader)
+and the stamped-on page number (at the bottom) are always in step.
