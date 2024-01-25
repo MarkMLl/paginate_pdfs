@@ -20,3 +20,5 @@ Prerequisites are pdftk, LaTeX as installed on most Linux distreaux etc. The
 output intentionally has every page (including TOCs at the start of a sub-bundle
 etc.) paginated, so that the PDF page (typically shown at the top of the reader)
 and the stamped-on page number (at the bottom) are always in step.
+
+For booklet printing, i.e. two pages per side duplexed with correct collation, consider https://github.com/Boomaga/boomaga (https://www.boomaga.org/, or available as a package in many distreaux).
